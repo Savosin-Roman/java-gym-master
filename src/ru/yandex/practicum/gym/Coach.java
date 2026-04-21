@@ -1,7 +1,7 @@
 package ru.yandex.practicum.gym;
 
 import java.util.Objects;
-
+// тренер
 public class Coach {
 
     //фамилия
@@ -22,7 +22,8 @@ public class Coach {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Coach coach = (Coach) o;
-        return Objects.equals(surname, coach.surname) && Objects.equals(name, coach.name) && Objects.equals(middleName, coach.middleName);
+        return Objects.equals(surname, coach.surname) && Objects.equals(name, coach.name)
+                && Objects.equals(middleName, coach.middleName);
     }
 
     @Override

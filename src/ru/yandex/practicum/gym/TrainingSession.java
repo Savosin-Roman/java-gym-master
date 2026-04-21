@@ -1,5 +1,5 @@
 package ru.yandex.practicum.gym;
-
+// набор занятий каждое их них соответствует тренировке определённой группы, которую проводит конкретный тренер в определённое время
 public class TrainingSession {
 
     //группа
@@ -33,4 +33,5 @@ public class TrainingSession {
     public TimeOfDay getTimeOfDay() {
         return timeOfDay;
     }
+
 }
