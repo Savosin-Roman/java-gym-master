@@ -40,7 +40,7 @@ public class Timetable {
             return Collections.emptySet();
         }
 
-        Set<TrainingSession> result = new HashSet<>();
+        Set<TrainingSession> result = new LinkedHashSet<>();
         for (Set<TrainingSession> sessions : sessionsByTime.values()) {
             result.addAll(sessions);
         }
