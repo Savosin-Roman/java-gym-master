@@ -1,5 +1,5 @@
 package ru.yandex.practicum.gym;
-// расписание уроков
+
 import java.util.*;
 import java.util.stream.Collectors;
 
